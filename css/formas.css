@@ -1,12 +1,21 @@
 /* ---- Formas.css ---- */
 
 .boton {
+	background-color: #ffb400;
+	padding: 20px 30px; /*arriba y abajo 20px izquierda y derecha 30px esto gracias a css3*/
+	width: 100%;
+	border-bottom: 7px solid #e49100;
+	box-sizing: border-box;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.boton:hover{
+	background-color: #e49100;
+}
+
+.contenidoBoton{
 	color: #ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
-	background-color: #ffb400;
-	padding: 20px 30px; /*arriba y abajo 20px izquierda y derecha 30px esto gracias a css3*/
-	border-bottom: 7px solid #e49100;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
 }

@@ -217,7 +217,7 @@
   text-align: start;
 }
 
-.center {
+.centrarContenido {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   -webkit-box-pack: center;
@@ -240,7 +240,7 @@
   align-items: flex-start;
 }
 
-.middle {
+.centrarVertical {
   -webkit-align-items: center;
   -ms-flex-align: center;
   -webkit-box-align: center;
@@ -254,13 +254,13 @@
   align-items: flex-end;
 }
 
-.around {
+.distribuirAmbosLados {
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 
-.between {
+.distribuirEnMedio {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   -webkit-box-pack: justify;
