@@ -1,0 +1,14 @@
+/* ---- secciones.css ---- */
+
+.home {
+	background: #ffffff url('../assets/bg.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	height: 100%;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 20%;
+	box-sizing: border-box;
+
+}

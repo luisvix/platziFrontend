@@ -1,1 +1,1 @@
-primer practica de frontend, practicando con github
+curso de html5 y css3 de platzi, practicando con github

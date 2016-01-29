@@ -1,0 +1,26 @@
+/* ---- headerFooter.css ---- */
+
+header, footer{
+	background-color: #282828;
+	position: absolute;
+	width: 100%;
+}
+
+header img{
+	width: 250px;
+	display: inline-block;
+}
+
+nav ul li{
+	color: #ffffff; /*rgb(255,255,255)  blanco*/
+	display: inline;
+}
+
+footer{
+	padding: 20px 10px;
+	box-sizing: border-box;
+}
+
+footer, footer a{
+	color: #ffffff;
+}
