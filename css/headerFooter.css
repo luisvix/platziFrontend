@@ -2,8 +2,23 @@
 
 header, footer{
 	background-color: #282828;
-	position: absolute;
+	position: fixed;
 	width: 100%;
+	padding: 15px 5px;
+	box-sizing: border-box;
+	color:#d3d1d1;
+}
+
+header{
+	top: 0;
+}
+
+footer{
+	bottom: 0;
+}
+
+.link_a{
+	color:#d3d1d1;
 }
 
 header img{
@@ -11,16 +26,3 @@ header img{
 	display: inline-block;
 }
 
-nav ul li{
-	color: #ffffff; /*rgb(255,255,255)  blanco*/
-	display: inline;
-}
-
-footer{
-	padding: 20px 10px;
-	box-sizing: border-box;
-}
-
-footer, footer a{
-	color: #ffffff;
-}
