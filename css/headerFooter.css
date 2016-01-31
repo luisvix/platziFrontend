@@ -1,7 +1,7 @@
 /* ---- headerFooter.css ---- */
 
 header, footer{
-	background-color: #282828;
+	background-color: rgba(40,40,40,.89);
 	position: fixed;
 	width: 100%;
 	padding: 10px 5px;
