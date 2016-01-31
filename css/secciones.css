@@ -5,10 +5,11 @@
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	height: 100%;
 	text-align: center;
 	color: #ffffff;
-	padding-top: 20%;
 	box-sizing: border-box;
+}
 
+.principalPaginasAdicionales{
+	background-color: rgb(200,200,200);
 }

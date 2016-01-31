@@ -2,14 +2,20 @@
 
 .boton {
 	background-color: #ffb400;
-	padding: 20px 30px; /*arriba y abajo 20px izquierda y derecha 30px esto gracias a css3*/
 	width: 100%;
+	height: 55px;
+	line-height: 50px;
 	border-bottom: 7px solid #e49100;
 	box-sizing: border-box;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	margin-right: 15px;
 	text-shadow: 0 0 2px #222222;
+
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;	
+
 }
 
 .boton:hover{
@@ -20,8 +26,6 @@
 	margin-right: 0;
 }
 
-.contenidoBoton{
-	color: #ffffff;
-	text-decoration: none;
-	text-transform: uppercase;
+img{
+	width: 100%;
 }

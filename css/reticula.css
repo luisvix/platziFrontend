@@ -7,7 +7,7 @@
   max-width: 98%;
 }
 
-.filas {
+.fila {
   box-sizing: border-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -32,7 +32,7 @@
   margin-left: -1%;
 }
 
-.filas .reverse {
+.fila .reverse {
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
   -webkit-box-orient: horizontal;
@@ -208,6 +208,100 @@
 .col-offset-11 {
   margin-left: 91.667%;
 }
+
+
+.altura-1 {
+  height: 8.333%;
+}
+
+.altura-2 {
+  height: 16.667%;
+}
+
+.altura-3 {
+  height: 25%;
+}
+
+.altura-4 {
+  height: 33.333%;
+}
+
+.altura-5 {
+  height: 41.667%;
+}
+
+.altura-6 {
+  height: 50%;
+}
+
+.altura-7 {
+  height: 58.333%;
+}
+
+.altura-8 {
+  height: 66.667%;
+}
+
+.altura-9 {
+  height: 75%;
+}
+
+.altura-10 {
+  height: 83.333%;
+}
+
+.altura-11 {
+  height: 91.667%;
+}
+
+.altura-12 {
+  height: 100%;
+}
+
+.altura-offset-1 {
+  padding-top: 8.333vh;
+}
+
+.altura-offset-2 {
+  padding-top: 16.667vh;
+}
+
+.altura-offset-3 {
+  padding-top: 25vh;
+}
+
+.altura-offset-4 {
+  padding-top: 33.333vh;
+}
+
+.altura-offset-5 {
+  padding-top: 41.66vh;
+}
+
+.altura-offset-6 {
+  padding-top: 50vh;
+}
+
+.altura-offset-7 {
+  padding-top: 58.333vh;
+}
+
+.altura-offset-8 {
+  padding-top: 66.667vh;
+}
+
+.altura-offset-9 {
+  padding-top: 75vh;
+}
+
+.altura-offset-10 {
+ padding-topt: 83.333vh;
+}
+
+.altura-offset-11 {
+ padding-topt: 91.667vh;
+}
+
 
 .start {
   -webkit-justify-content: flex-start;

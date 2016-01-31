@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Gatos y perros del Internet</title>
+		<title>Probando filas de reticula</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 		<meta charset="UTF-8" />
 	</head>
-
 	<body>
-
 		<header>
 			<div class="contenedor">
 				<nav class="fila distribuirEnMedio centrarVertical">
@@ -16,7 +14,7 @@
 						<a href="index.html"> <img src="assets/logo.svg" /> </a> 
 					</div>
 					
-					<div class="col-3">
+					<div class="col-3 contenedorNavegador" >
 						<ul class="fila distribuirEnMedio">
 
 							<li class="col">
@@ -37,30 +35,26 @@
 			</div>
 		</header>
 
-		<section class="altura-12 principalPaginasAdicionales">
-			<div class="contenedor altura-12">
-						<div class="col-10 altura-offset-4">
-							<h2>Lista de Gatos en Memes favoritos</h2>
-						</div>
+		<section class="home altoMaximo">
+			<div class="contenedor altoMaximo">
 
-					<ol class="fila">
-						<li class="col-3">
-							<img src="assets/maru.png">
-							Nyan cat
-						</li>
-						<li class="col-3">
-							<img src="assets/git.png">
-							Grumpy cat
-						</li>
-						<li class="col-3">
-							<img src="assets/grumpy.png">
-							Maru
-						</li>
-						<li class="col-3">
-							<img src="assets/nyan.png">
-							Git, el gato
-						</li>
-					</ol> 
+
+					<div class="fila-3 ">
+						<h1 class="col-10 ">Aprende sobre las masotas más populares de internet</h1>
+					</div>
+
+					<div class="fila altoMitad top centrarContenido">
+						
+							<a href="gatos.html" class=" col-2 boton centrarVertical">
+								<div class="col-12"> Gatos </div> 
+							</a>
+
+							<a href="perros.html" class=" boton col-2 centrarVertical">
+								<p> Perros </p>
+							</a>
+						
+					</div>
+
 			</div>
 		</section>
 
@@ -71,7 +65,6 @@
 				</div>
 			</div>
 		</footer>
-
 	</body>
-
 </html>
+
