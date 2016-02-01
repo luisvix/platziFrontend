@@ -2,7 +2,6 @@
 
 .boton {
 	background-color: #ffb400;
-	width: 100%;
 	height: 55px;
 	line-height: 50px;
 	border-bottom: 7px solid #e49100;
@@ -16,10 +15,16 @@
 	text-decoration: none;
 	text-transform: uppercase;	
 
+	transition: height 0.15s, background-color .5s;
+
 }
 
 .boton:hover{
 	background-color: #e49100;
+}
+
+.boton:active{
+	height: 48px;
 }
 
 .boton:last-of-type{

@@ -1,15 +1,19 @@
 /* ---- secciones.css ---- */
 
-.home {
-	background: #ffffff url('../assets/bg.jpg') no-repeat center center fixed;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	text-align: center;
-	color: #ffffff;
-	box-sizing: border-box;
+.ultimaFila{
+	margin-bottom: 100px;
 }
 
-.principalPaginasAdicionales{
-	background-color: rgb(230,230,230);
+.single {
+    margin: 130px 0;
+}
+
+.info {
+    background-color: #aec7d3; /*95bfd1*/
+    color: #555;
+    padding: 20px;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-radius: 3px;
 }

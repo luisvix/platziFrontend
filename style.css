@@ -13,3 +13,16 @@ html,body{
 	font-family: 'Montserrat', sans-serif;
 }
 
+.cuerpoPaginaSecundaria{
+	background-color: rgb(235,235,235);
+}
+
+.cuerpoPaginaPrincipal{
+	background: #ffffff url('assets/bg.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	text-align: center;
+	color: #ffffff;
+	box-sizing: border-box;
+}
