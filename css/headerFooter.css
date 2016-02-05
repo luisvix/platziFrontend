@@ -2,7 +2,7 @@
 
 header, footer{
 	background-color: rgba(40,40,40,.89);
-	position: fixed;
+	position: absolute;
 	width: 100%;
 	padding: 10px 5px;
 	box-sizing: border-box;
@@ -28,7 +28,7 @@ header img{
 }
 
 .same-height {
-    max-height: 154px;
+    max-height: 170px;
     overflow: hidden;
 }
 
